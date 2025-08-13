@@ -14,6 +14,7 @@ CloudWatch,
 Secret Manager
 
 
+Project Details:
 1. Crawler will scan the customer and geo location data and put update the glue catalog.
 2. Phase 1 - Glue Job will run. It will read the customer data set and cleanse the data
 3. Phase 2 - Glue Job will triggered once the Phase 1 succeeded. This will read the cleansed data and do joins/transformations as per requirement and put it in s3 bucket.
